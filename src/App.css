@@ -36,7 +36,11 @@ h1 {
   margin-bottom: 1rem;
 }
 
-pre {
-  padding: 15px; 
-  white-space: pre-wrap;
+ul {
+  list-style: none;
+  padding: 1rem;
 }
+li {
+  padding-bottom: 1rem;
+}
+
