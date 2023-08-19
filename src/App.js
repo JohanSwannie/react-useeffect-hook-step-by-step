@@ -37,9 +37,11 @@ function App() {
         <button onClick={() => setResourceType("comments")}>Comments</button>
       </div>
       <h1>{resourceType}</h1>
-      {items.map((item, index) => (
-        <pre key={index}>{JSON.stringify(item)}</pre>
-      ))}
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{JSON.stringify(item)}</li>
+        ))}
+      </ul>
     </div>
   );
 }
