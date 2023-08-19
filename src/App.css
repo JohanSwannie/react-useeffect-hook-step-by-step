@@ -6,6 +6,23 @@
   padding: 1rem 12rem;
 }
 
+.window_parameters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 12rem;
+}
+
+.window_parameters div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  color: #FFF;
+  background-color: red;
+}
+
 button {
   color: #FFF;
   background-color: navy;
